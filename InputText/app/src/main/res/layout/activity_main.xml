@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#191919"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edt_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginRight="56dp"
+        android:layout_marginBottom="26dp"
+        android:hint="@string/hint_nama"
+        android:inputType="textPersonName"
+        android:textColor="#EDEBEC"
+        android:textColorHint="#65B6B1B1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp"
+        android:layout_marginRight="56dp"
+        android:text="@string/submit"
+        android:background="@drawable/btn_custom"
+        android:id="@+id/btn_submit" />
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginTop="56dp"
+        android:textSize="18sp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#F6F6F6" />
+</LinearLayout>

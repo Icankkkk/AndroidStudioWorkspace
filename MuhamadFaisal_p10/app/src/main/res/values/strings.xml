@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MuhamadFaisal_p10</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="biodata">Nama : Muhamad Faisal\nNim : 191011401460\nKelas : 06TPLP014\nAlamat : Bogor\nUmur : 21 Tahun</string>
+    <string name="nilai">Nilai :</string>
+    <string name="logika">Logika</string>
+    <string name="base">Alas</string>
+    <string name="hint_alas">Masukan Alas</string>
+    <string name="height">Tinggi</string>
+    <string name="hint_tinggi">Masukan tinggi</string>
+    <string name="calculate">Hitung Luas</string>
+    <string name="result" />
+    <string name="nama">Muhamad Faisal - 191011401460</string>
+</resources>
